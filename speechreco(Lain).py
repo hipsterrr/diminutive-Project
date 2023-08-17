@@ -34,7 +34,7 @@ def main():
                 speak("Exiting the program")
                 break
             else:
-                print("Command not recognized.")
+                print("Command not recognized, Please say it again.")
 
         except sr.UnknownValueError:
             print("Sorry, could not understand audio.")
